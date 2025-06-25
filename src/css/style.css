@@ -1,0 +1,106 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #0e0619;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #31024e, #55007a);
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #fff;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #ddd;
+      margin-top: 15px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .section {
+      background: #1b0c2d;
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 40px;
+      box-shadow: 0 0 20px rgba(140, 0, 255, 0.2);
+    }
+
+    .section h2 {
+      color: #f926ff;
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+    }
+
+    .section p,
+    .section ul li {
+      color: #ddd;
+      font-size: 1.05rem;
+    }
+
+    .section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .section ul li::before {
+      content: "🚀";
+      margin-right: 10px;
+      color: #f926ff;
+    }
+
+    .ebook-img {
+      display: block;
+      max-width: 350px;
+      width: 100%;
+      margin: 20px auto;
+    }
+
+    .btn {
+      background-color: #f926ff;
+      color: #fff;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-radius: 40px;
+      display: inline-block;
+      margin-top: 20px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #d214e3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #150520;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+
+    @media(max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .section h2 {
+        font-size: 1.5rem;
+      }
+    }
